@@ -12,4 +12,4 @@ export const addComplaint = (data) =>
 export const updateStatus = (id, data) =>
   API.put(`/complaints/${id}`, data);
 
-export default API;     
+export default API;
