@@ -1,0 +1,98 @@
+/* GLOBAL RESET */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* BODY */
+
+body{
+  font-family: "Poppins", Arial, sans-serif;
+  background:#f4f6f8;
+  color:#333;
+}
+
+/* LINKS */
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+/* BUTTON */
+
+button{
+  padding:10px 15px;
+  border:none;
+  border-radius:6px;
+  background:#2e7d32;
+  color:white;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  background:#1b5e20;
+}
+
+/* INPUTS */
+
+input,select,textarea{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  width:100%;
+  margin-top:5px;
+}
+
+/* PAGE TITLE */
+
+h1,h2,h3{
+  color:#2e7d32;
+}
+
+/* CONTAINER */
+
+.container{
+  padding:20px;
+}
+
+/* CARDS */
+
+.card{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+/* GRID */
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(5,60px);
+  gap:15px;
+}
+
+/* STREET LIGHT */
+
+.on{
+  background:green;
+  height:60px;
+  border-radius:50%;
+  cursor:pointer;
+}
+
+.off{
+  background:red;
+  height:60px;
+  border-radius:50%;
+  cursor:pointer;
+}
